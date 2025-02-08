@@ -1,4 +1,3 @@
-import Link from "next/link";
 import NikeBanner from "../../components/NikeBanner/NikeBanner";
 import ProductCard from "../../components/ProductCard/ProductCard";
 

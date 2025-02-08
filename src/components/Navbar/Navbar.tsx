@@ -1,6 +1,8 @@
 // src/app/Navbar.tsx
 import styles from "./Navbar.module.css";
 import Link from "next/link";
+import Image from "next/image"; // ✅ Correct import
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faHeart } from "@fortawesome/free-solid-svg-icons"; // Correct icon import
 
@@ -8,7 +10,8 @@ const Navbar = () => {
   return (
     <header className={styles.navbar}>
       <div className={styles.logo}>
-        <img src="/logosign.png" alt="Logo" />
+        {/* ✅ Use capital 'I' for Image & provide width & height */}
+        <Image src="/logosign.png" alt="Logo" width={50} height={50} />
       </div>
       <nav className={styles.links}>
         <Link href="/">New & Featured</Link>

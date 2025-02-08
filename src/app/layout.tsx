@@ -3,7 +3,6 @@ import './globals.css';
 import Navbar from '../components/Navbar/Navbar'; // Navbar import
 import Footer from '../components/Footer/Footer'; // Footer import
 import Header from '../components/Header/Header'; // Header import
-import HomePage from './home/page';
 
 export const metadata = {
   title: 'My E-commerce Website',
