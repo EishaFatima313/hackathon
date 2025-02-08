@@ -1,0 +1,36 @@
+/* src/app/navbar.module.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #eaeaea;
+  }
+  
+  .logo img {
+    height: 36px;
+  }
+  
+  .links {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .actions span {
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
